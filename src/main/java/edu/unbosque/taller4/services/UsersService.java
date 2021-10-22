@@ -47,7 +47,7 @@ public class UsersService {
             }
 
             // Printing results
-            System.out.println("Email | Password | Role");
+            System.out.println("username | Password | email| Role");
             for (UserApp user : userApps) {
                 System.out.print(user.getUsername() + " | ");
                 System.out.print(user.getPassword() + " | ");
