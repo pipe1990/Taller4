@@ -1,4 +1,4 @@
-package edu.unbosque.jdbctutorial.dtos;
+package edu.unbosque.taller4.dtos;
 
 public class Pet {
 

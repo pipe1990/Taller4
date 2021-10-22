@@ -1,14 +1,10 @@
-package edu.unbosque.jdbctutorial.services;
+package edu.unbosque.taller4.services;
 
-import edu.unbosque.jdbctutorial.dtos.Owner;
-import edu.unbosque.jdbctutorial.dtos.UserApp;
+import edu.unbosque.taller4.dtos.Owner;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
 
 public class OwnersService {
 

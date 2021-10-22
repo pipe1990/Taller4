@@ -1,13 +1,11 @@
-package edu.unbosque.jdbctutorial;
+package edu.unbosque.taller4;
 
-import java.util.*;
 import java.sql.*;
 
-import edu.unbosque.jdbctutorial.dtos.Owner;
-import edu.unbosque.jdbctutorial.dtos.UserApp;
-import edu.unbosque.jdbctutorial.services.OwnersService;
-import edu.unbosque.jdbctutorial.services.PetsService;
-import edu.unbosque.jdbctutorial.services.UsersService;
+import edu.unbosque.taller4.dtos.Owner;
+import edu.unbosque.taller4.services.OwnersService;
+import edu.unbosque.taller4.services.PetsService;
+import edu.unbosque.taller4.services.UsersService;
 
 public class Main {
 

@@ -1,6 +1,6 @@
-package edu.unbosque.jdbctutorial.services;
+package edu.unbosque.taller4.services;
 
-import edu.unbosque.jdbctutorial.dtos.UserApp;
+import edu.unbosque.taller4.dtos.UserApp;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
