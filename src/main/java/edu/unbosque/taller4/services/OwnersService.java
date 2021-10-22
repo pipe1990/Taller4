@@ -25,7 +25,7 @@ public class OwnersService {
             // Executing a SQL query
             System.out.println("=> Updating owner...");
             stmt = conn.createStatement();
-            String sql = "UPDATE Owner SET fullName = '" + owner.getFullName() + "' WHERE idNumber = " + owner.getIdNumer();
+            String sql = "UPDATE Owner SET name = '" + owner.getName() + "' WHERE person_id = " + owner.getPerson_id();
             System.out.println(sql);
             int rowsUpdated = stmt.executeUpdate(sql);
 

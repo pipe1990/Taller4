@@ -38,7 +38,7 @@ public class Main {
             petsService.countBySpecies("Dog");
 
             OwnersService ownersService = new OwnersService(conn);
-            ownersService.updateOwner(new Owner(6698, null, "Pepito Perez"));
+            ownersService.updateOwner(new Owner("owner124", "0850",  "Juan Perez", "Cra 64 #94-108", "Usaquen"));
 
             // Closing database connection
             conn.close();
